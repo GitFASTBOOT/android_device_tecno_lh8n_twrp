@@ -8,8 +8,6 @@
 # Inherit from MTK-common
 $(call inherit-product, device/mediatek/common/device.mk)
 $(call inherit-product, device/mediatek/decrypt/decrypt.mk)
-$(warning $(call inherit-product, device/mediatek/decrypt/decrypt.mk)
-
 
 PRODUCT_DEVICE := LH8n
 PRODUCT_NAME := twrp_LH8n
