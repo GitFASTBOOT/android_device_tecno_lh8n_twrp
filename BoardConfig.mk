@@ -42,6 +42,19 @@ TW_DEVICE_VERSION := GitFASTBOOT
 # Crypto
 TW_INCLUDE_CRYPTO := true
 
+# Excludes
+TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_DEFAULT_USB_INIT := true
+TW_EXCLUDE_APEX := true
+TW_EXCLUDE_SUPERSU := true
+TW_EXCLUDE_NANO := true
+TW_EXCLUDE_PYTHON := true
+TW_EXCLUDE_TZDATA := true
+TW_EXCLUDE_NTFS_3G := true
+TW_EXCLUDE_BASH := true
+TW_EXCLUDE_LPTOOLS := true
+TW_EXCLUDE_LPDUMP := true
+
 #board
 include device/mediatek/common/BoardConfigCommon.mk
 
