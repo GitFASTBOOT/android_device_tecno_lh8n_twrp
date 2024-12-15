@@ -1,8 +1,0 @@
-[
-  {
-    "remote":      "github",
-    "repository":  "GitFASTBOOT/android_device_mediatek_decrypt",
-    "target_path": "device/mediatek/decrypt",
-    "revision":    "main"
-  }
-]
