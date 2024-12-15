@@ -1,0 +1,8 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "GitFASTBOOT/android_device_mediatek-common_twrp",
+    "target_path": "device/mediatek/common",
+    "revision":    "crypto"
+  }
+]
