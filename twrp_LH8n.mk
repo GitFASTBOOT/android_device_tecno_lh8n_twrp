@@ -9,6 +9,8 @@
 $(call inherit-product, device/mediatek/common/device.mk)
 $(call inherit-product, device/mediatek/decrypt/decrypt.mk)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*.drbin,$(CRYPTO_PATH)/mt6833/vendor/app/mcRegistry,$(TARGET_COPY_OUT_RECOVERY)/root/vendor/app/mcRegistry)
+
 PRODUCT_DEVICE := LH8n
 PRODUCT_NAME := twrp_LH8n
 PRODUCT_BRAND := TECNO
