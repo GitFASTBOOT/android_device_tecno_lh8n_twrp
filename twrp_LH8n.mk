@@ -7,6 +7,7 @@
 
 # Inherit from MTK-common
 $(call inherit-product, device/mediatek/common/device.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
 PRODUCT_DEVICE := LH8n
 PRODUCT_NAME := twrp_LH8n
