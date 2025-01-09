@@ -29,6 +29,8 @@ PRODUCT_MANUFACTURER := tecno
 
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
 
+ENABLE_VIRTUAL_AB := true
+
 # Hide Reflash TWRP & FUSE passthrough
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.twrp.vendor_boot=true \
