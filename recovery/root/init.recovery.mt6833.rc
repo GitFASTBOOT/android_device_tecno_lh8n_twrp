@@ -8,6 +8,22 @@ on init
     setprop sys.usb.ffs.aio_compat 1
     export LD_LIBRARY_PATH /system/lib64:/vendor/lib64:/vendor/lib64/hw:/system/lib64/hw
     setprop crypto.ready 1
+    cp /dev/block/mapper/vendor/lib64/*keymaster*.so /system/lib64
+    cp /dev/block/mapper/vendor/lib64/android.hardware.gatekeeper@1.0.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/libion_mtk.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/libion_ulit.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/libladder.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/libMcClient.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/libTEECommon.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/libthha.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/hw/gatekeeper.default.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/hw/gatekeeper.trustonic.so system/lib64
+    cp /dev/block/mapper/vendor/lib64/hw/libMcGatekeeper.so system/lib64 
+    cp /dev/block/mapper/vendor/lib64/hw/ system/lib64
+    cp /dev/block/mapper/vendor/lib64/hw/libSoftGatekeeper.so system/lib64
+    cp /dev/block/mapper/system/lib64/libgatekeeper.so system/lib64
+
 
 on fs
     install_keyring
